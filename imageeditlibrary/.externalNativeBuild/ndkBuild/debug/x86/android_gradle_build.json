@@ -1,0 +1,69 @@
+{
+  "buildFiles": [
+    "D:\\android\\github\\ImageEditor-Android\\ImageEditor-Android\\imageeditlibrary\\jni\\Android.mk",
+    "D:\\android\\github\\ImageEditor-Android\\ImageEditor-Android\\imageeditlibrary\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\xie52\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\android\\github\\ImageEditor-Android\\ImageEditor-Android\\imageeditlibrary\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\android\\github\\ImageEditor-Android\\ImageEditor-Android\\imageeditlibrary\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\android\\github\\ImageEditor-Android\\ImageEditor-Android\\imageeditlibrary\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "photoprocessing-debug-x86": {
+      "buildCommand": "C:\\Users\\xie52\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\android\\github\\ImageEditor-Android\\ImageEditor-Android\\imageeditlibrary\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\android\\github\\ImageEditor-Android\\ImageEditor-Android\\imageeditlibrary\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\android\\github\\ImageEditor-Android\\ImageEditor-Android\\imageeditlibrary\\build\\intermediates\\ndkBuild\\debug\\lib D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/build/intermediates/ndkBuild/debug/obj/local/x86/libphotoprocessing.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "photoprocessing",
+      "files": [
+        {
+          "src": "D:\\android\\github\\ImageEditor-Android\\ImageEditor-Android\\imageeditlibrary\\jni\\bicubic_resize.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/xie52/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -ID:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni -DANDROID -DANDROID_NDK -DDISABLE_IMPORTGL -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\android\\github\\ImageEditor-Android\\ImageEditor-Android\\imageeditlibrary\\jni\\bitmap.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/xie52/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -ID:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni -DANDROID -DANDROID_NDK -DDISABLE_IMPORTGL -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\android\\github\\ImageEditor-Android\\ImageEditor-Android\\imageeditlibrary\\jni\\blur.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/xie52/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -ID:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni -DANDROID -DANDROID_NDK -DDISABLE_IMPORTGL -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\android\\github\\ImageEditor-Android\\ImageEditor-Android\\imageeditlibrary\\jni\\colour_space.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/xie52/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -ID:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni -DANDROID -DANDROID_NDK -DDISABLE_IMPORTGL -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\android\\github\\ImageEditor-Android\\ImageEditor-Android\\imageeditlibrary\\jni\\filter.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/xie52/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -ID:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni -DANDROID -DANDROID_NDK -DDISABLE_IMPORTGL -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\android\\github\\ImageEditor-Android\\ImageEditor-Android\\imageeditlibrary\\jni\\matrix.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/xie52/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -ID:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni -DANDROID -DANDROID_NDK -DDISABLE_IMPORTGL -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\android\\github\\ImageEditor-Android\\ImageEditor-Android\\imageeditlibrary\\jni\\mem_utils.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/xie52/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -ID:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni -DANDROID -DANDROID_NDK -DDISABLE_IMPORTGL -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\android\\github\\ImageEditor-Android\\ImageEditor-Android\\imageeditlibrary\\jni\\nanojpeg.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/xie52/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -ID:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni -DANDROID -DANDROID_NDK -DDISABLE_IMPORTGL -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\android\\github\\ImageEditor-Android\\ImageEditor-Android\\imageeditlibrary\\jni\\photo_processing.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/xie52/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -ID:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni -DANDROID -DANDROID_NDK -DDISABLE_IMPORTGL -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\android\\github\\ImageEditor-Android\\ImageEditor-Android\\imageeditlibrary\\jni\\transform.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/xie52/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -ID:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni -DANDROID -DANDROID_NDK -DDISABLE_IMPORTGL -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "D:\\android\\github\\ImageEditor-Android\\ImageEditor-Android\\imageeditlibrary\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libphotoprocessing.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cCompilerExecutable": "C:\\Users\\xie52\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

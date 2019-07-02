@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/back_to_main"
+        android:layout_width="40dp"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/image_edit_back" />
+
+    <LinearLayout
+        android:layout_toRightOf="@id/back_to_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black1"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/smooth"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="13sp" />
+
+            <SeekBar
+                android:id="@+id/smooth_value_bar"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:max="500" />
+            <TextView
+                android:id="@+id/my_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:paddingRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="13sp"
+                android:gravity="center"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/white_skin"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+
+            <SeekBar
+                android:id="@+id/white_skin_value_bar"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:max="10" />
+            <TextView
+                android:id="@+id/mb_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:paddingRight="10dp"
+                android:textSize="13sp"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

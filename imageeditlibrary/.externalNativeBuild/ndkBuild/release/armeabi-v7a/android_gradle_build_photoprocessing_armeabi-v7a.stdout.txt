@@ -1,0 +1,11 @@
+[armeabi-v7a] Compile thumb  : photoprocessing <= nanojpeg.c
+[armeabi-v7a] Compile thumb  : photoprocessing <= mem_utils.c
+[armeabi-v7a] Compile thumb  : photoprocessing <= bitmap.c
+[armeabi-v7a] Compile thumb  : photoprocessing <= bicubic_resize.c
+[armeabi-v7a] Compile thumb  : photoprocessing <= filter.c
+[armeabi-v7a] Compile thumb  : photoprocessing <= transform.c
+[armeabi-v7a] Compile thumb  : photoprocessing <= colour_space.c
+[armeabi-v7a] Compile thumb  : photoprocessing <= matrix.c
+[armeabi-v7a] Compile thumb  : photoprocessing <= blur.c
+[armeabi-v7a] Compile thumb  : photoprocessing <= photo_processing.c
+[armeabi-v7a] SharedLibrary  : libphotoprocessing.so

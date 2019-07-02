@@ -1,0 +1,11 @@
+[x86] Compile        : photoprocessing <= nanojpeg.c
+[x86] Compile        : photoprocessing <= mem_utils.c
+[x86] Compile        : photoprocessing <= bitmap.c
+[x86] Compile        : photoprocessing <= bicubic_resize.c
+[x86] Compile        : photoprocessing <= filter.c
+[x86] Compile        : photoprocessing <= transform.c
+[x86] Compile        : photoprocessing <= colour_space.c
+[x86] Compile        : photoprocessing <= matrix.c
+[x86] Compile        : photoprocessing <= blur.c
+[x86] Compile        : photoprocessing <= photo_processing.c
+[x86] SharedLibrary  : libphotoprocessing.so

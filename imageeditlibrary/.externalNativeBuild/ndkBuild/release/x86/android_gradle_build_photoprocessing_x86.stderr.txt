@@ -1,0 +1,256 @@
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/mem_utils.c:27:2: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned int)' [-Wimplicit-function-declaration]
+        memset(*arrayPointer, 0, numBytes);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/mem_utils.c:27:2: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/mem_utils.c:33:16: warning: assigning to 'unsigned int *' from 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        *arrayPointer = (int*) malloc(numBytes);
+                      ^ ~~~~~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:118:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:127:15: warning: implicit declaration of function 'decodeJpegChannel' is invalid in C99 [-Wimplicit-function-declaration]
+        returnCode = decodeJpegChannel(jpegData, jpegSize, 0, &(*bitmap).red, &(*bitmap).redWidth, &(*bitmap).redHeight);
+                     ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:130:3: warning: implicit declaration of function 'njDone' is invalid in C99 [-Wimplicit-function-declaration]
+                njDone();
+                ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:135:2: warning: implicit declaration of function 'doTransforms' is invalid in C99 [-Wimplicit-function-declaration]
+        doTransforms(bitmap, 1, 0, 0);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:138:15: warning: implicit declaration of function 'resizeChannel' is invalid in C99 [-Wimplicit-function-declaration]
+        returnCode = resizeChannel(&(*bitmap).red, (*bitmap).redWidth, (*bitmap).redHeight, maxWidth, maxHeight);
+                     ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:140:3: warning: implicit declaration of function 'njDone' is invalid in C99 [-Wimplicit-function-declaration]
+                njDone();
+                ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:154:3: warning: implicit declaration of function 'njDone' is invalid in C99 [-Wimplicit-function-declaration]
+                njDone();
+                ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:164:3: warning: implicit declaration of function 'njDone' is invalid in C99 [-Wimplicit-function-declaration]
+                njDone();
+                ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:179:3: warning: implicit declaration of function 'njDone' is invalid in C99 [-Wimplicit-function-declaration]
+                njDone();
+                ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:190:3: warning: implicit declaration of function 'njDone' is invalid in C99 [-Wimplicit-function-declaration]
+                njDone();
+                ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:208:3: warning: implicit declaration of function 'njDone' is invalid in C99 [-Wimplicit-function-declaration]
+                njDone();
+                ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:215:2: warning: implicit declaration of function 'njDoneLeaveRGBData' is invalid in C99 [-Wimplicit-function-declaration]
+        njDoneLeaveRGBData();
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:223:3: warning: implicit declaration of function 'njInit' is invalid in C99 [-Wimplicit-function-declaration]
+                njInit();
+                ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:224:16: warning: implicit declaration of function 'njDecode' is invalid in C99 [-Wimplicit-function-declaration]
+                returnCode = njDecode(jpegData, jpegSize, 1, 0, 0);
+                             ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:226:3: warning: implicit declaration of function 'njInit' is invalid in C99 [-Wimplicit-function-declaration]
+                njInit();
+                ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:227:16: warning: implicit declaration of function 'njDecode' is invalid in C99 [-Wimplicit-function-declaration]
+                returnCode = njDecode(jpegData, jpegSize, 0, 1, 0);
+                             ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:229:3: warning: implicit declaration of function 'njInit' is invalid in C99 [-Wimplicit-function-declaration]
+                njInit();
+                ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:230:16: warning: implicit declaration of function 'njDecode' is invalid in C99 [-Wimplicit-function-declaration]
+                returnCode = njDecode(jpegData, jpegSize, 0, 0, 1);
+                             ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:235:3: warning: implicit declaration of function 'njDone' is invalid in C99 [-Wimplicit-function-declaration]
+                njDone();
+                ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:239:14: warning: implicit declaration of function 'njGetWidth' is invalid in C99 [-Wimplicit-function-declaration]
+        *srcWidth = njGetWidth();
+                    ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:240:15: warning: implicit declaration of function 'njGetHeight' is invalid in C99 [-Wimplicit-function-declaration]
+        *srcHeight = njGetHeight();
+                     ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:243:36: warning: implicit declaration of function 'njGetRedImage' is invalid in C99 [-Wimplicit-function-declaration]
+                *channelPixels = (unsigned char*)njGetRedImage();
+                                                 ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:245:36: warning: implicit declaration of function 'njGetGreenImage' is invalid in C99 [-Wimplicit-function-declaration]
+                *channelPixels = (unsigned char*)njGetGreenImage();
+                                                 ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:247:36: warning: implicit declaration of function 'njGetBlueImage' is invalid in C99 [-Wimplicit-function-declaration]
+                *channelPixels = (unsigned char*)njGetBlueImage();
+                                                 ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bitmap.c:262:16: warning: implicit declaration of function 'resizeChannelBicubic' is invalid in C99 [-Wimplicit-function-declaration]
+                returnCode = resizeChannelBicubic(*channelPixels, srcWidth, srcHeight, scaledPixels, maxWidth, maxHeight);
+                             ^
+25 warnings generated.
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bicubic_resize.c:34:3: warning: implicitly declaring library function 'memcpy' with type 'void *(void *, const void *, unsigned int)' [-Wimplicit-function-declaration]
+                memcpy(dst, src, srcWidth * srcHeight);
+                ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bicubic_resize.c:34:3: note: include the header <string.h> or explicitly provide a declaration for 'memcpy'
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bicubic_resize.c:73:3: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned int)' [-Wimplicit-function-declaration]
+                memset(yVector, 0, srcWidth * sizeof(double));
+                ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/bicubic_resize.c:73:3: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+2 warnings generated.
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:316:15: warning: implicit declaration of function 'stackBlur' is invalid in C99 [-Wimplicit-function-declaration]
+        resultCode = stackBlur(&blurRadius, (*bitmap).red, (*bitmap).green, (*bitmap).blue, &((*bitmap).width), &((*bitmap).height), blurRed, blurGreen, blurBlue);
+                     ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:341:7: warning: using floating point absolute value function 'fabs' when argument is of integer type [-Wabsolute-value]
+                if (fabs(r1 - r2) >= threshold) {
+                    ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:347:7: warning: using floating point absolute value function 'fabs' when argument is of integer type [-Wabsolute-value]
+                if (fabs(g1 - g2) >= threshold) {
+                    ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:353:7: warning: using floating point absolute value function 'fabs' when argument is of integer type [-Wabsolute-value]
+                if (fabs(b1 - b2) >= threshold) {
+                    ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:368:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:496:2: warning: implicit declaration of function 'identMatrix' is invalid in C99 [-Wimplicit-function-declaration]
+        identMatrix(matrix);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:498:2: warning: implicit declaration of function 'saturateMatrix' is invalid in C99 [-Wimplicit-function-declaration]
+        saturateMatrix(matrix, &saturation);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:499:2: warning: implicit declaration of function 'applyMatrix' is invalid in C99 [-Wimplicit-function-declaration]
+        applyMatrix(bitmap, matrix);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:521:15: warning: implicit declaration of function 'stackBlur' is invalid in C99 [-Wimplicit-function-declaration]
+        resultCode = stackBlur(&blurRadius, (*bitmap).red, (*bitmap).green, (*bitmap).blue, &((*bitmap).width), &((*bitmap).height), blurRed, blurGreen, blurBlue);
+                     ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:598:15: warning: implicit declaration of function 'stackBlur' is invalid in C99 [-Wimplicit-function-declaration]
+        resultCode = stackBlur(&blurRadius, red, green, blue, &((*bitmap).width), &((*bitmap).height), blurRed, blurGreen, blurBlue);
+                     ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:609:2: warning: implicit declaration of function 'identMatrix' is invalid in C99 [-Wimplicit-function-declaration]
+        identMatrix(matrix);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:611:2: warning: implicit declaration of function 'saturateMatrix' is invalid in C99 [-Wimplicit-function-declaration]
+        saturateMatrix(matrix, &saturation);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:630:3: warning: implicit declaration of function 'applyMatrixToPixel' is invalid in C99 [-Wimplicit-function-declaration]
+                applyMatrixToPixel(&r2, &g2, &b2, matrix);
+                ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:639:2: warning: implicit declaration of function 'applyMatrix' is invalid in C99 [-Wimplicit-function-declaration]
+        applyMatrix(bitmap, matrix);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:670:2: warning: implicit declaration of function 'identMatrix' is invalid in C99 [-Wimplicit-function-declaration]
+        identMatrix(matrix);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:672:2: warning: implicit declaration of function 'saturateMatrix' is invalid in C99 [-Wimplicit-function-declaration]
+        saturateMatrix(matrix, &saturation);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:673:2: warning: implicit declaration of function 'applyMatrix' is invalid in C99 [-Wimplicit-function-declaration]
+        applyMatrix(bitmap, matrix);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:774:3: warning: implicit declaration of function 'getBrightness' is invalid in C99 [-Wimplicit-function-declaration]
+                getBrightness(red[i], green[i], blue[i], &value);
+                ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:779:3: warning: implicit declaration of function 'rgbToHsb' is invalid in C99 [-Wimplicit-function-declaration]
+                rgbToHsb(r, g, b, &hsb);
+                ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/filter.c:782:3: warning: implicit declaration of function 'hsbToRgb' is invalid in C99 [-Wimplicit-function-declaration]
+                hsbToRgb(&hsb, &r, &g, &b);
+                ^
+20 warnings generated.
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/transform.c:33:3: warning: implicitly declaring library function 'memmove' with type 'void *(void *, const void *, unsigned int)' [-Wimplicit-function-declaration]
+                memmove(newTransforms, (*bitmap).transformList.transforms, (*bitmap).transformList.size);
+                ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/transform.c:33:3: note: include the header <string.h> or explicitly provide a declaration for 'memmove'
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/transform.c:265:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/transform.c:390:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+3 warnings generated.
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/matrix.c:62:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+identMatrix(float *matrix) {
+^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/matrix.c:79:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/matrix.c:120:5: warning: implicit declaration of function 'multiplyMatricies' is invalid in C99 [-Wimplicit-function-declaration]
+    multiplyMatricies(mmatrix, matrix, matrix);
+    ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/matrix.c:123:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+multiplyMatricies(float a[4][4], float b[4][4], float c[4][4]) {
+^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/matrix.c:141:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+5 warnings generated.
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/blur.c:214:3: warning: implicitly declaring library function 'memcpy' with type 'void *(void *, const void *, unsigned int)' [-Wimplicit-function-declaration]
+                memcpy(srcComponentCopy, srcComponent, size);
+                ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/blur.c:214:3: note: include the header <string.h> or explicitly provide a declaration for 'memcpy'
+1 warning generated.
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:36:9: warning: implicit declaration of function 'initBitmapMemory' is invalid in C99 [-Wimplicit-function-declaration]
+        return initBitmapMemory(&bitmap, width, height);
+               ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:43:2: warning: implicit declaration of function 'getBitmapRowAsIntegers' is invalid in C99 [-Wimplicit-function-declaration]
+        getBitmapRowAsIntegers(&bitmap, (int)y, &cpixels);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:50:2: warning: implicit declaration of function 'setBitmapRowFromIntegers' is invalid in C99 [-Wimplicit-function-declaration]
+        setBitmapRowFromIntegers(&bitmap, (int)y, &cpixels);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:62:2: warning: implicit declaration of function 'deleteBitmap' is invalid in C99 [-Wimplicit-function-declaration]
+        deleteBitmap(&bitmap);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:66:2: warning: implicit declaration of function 'flipHorizontally' is invalid in C99 [-Wimplicit-function-declaration]
+        flipHorizontally(&bitmap, 1, 1, 1);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:70:19: warning: implicit declaration of function 'rotate90' is invalid in C99 [-Wimplicit-function-declaration]
+        int resultCode = rotate90(&bitmap, 1, 1, 1);
+                         ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:78:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:81:2: warning: implicit declaration of function 'rotate180' is invalid in C99 [-Wimplicit-function-declaration]
+        rotate180(&bitmap, 1, 1, 1);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:85:2: warning: implicit declaration of function 'applyInstafix' is invalid in C99 [-Wimplicit-function-declaration]
+        applyInstafix(&bitmap);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:89:2: warning: implicit declaration of function 'applyAnselFilter' is invalid in C99 [-Wimplicit-function-declaration]
+        applyAnselFilter(&bitmap);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:93:2: warning: implicit declaration of function 'applyTestino' is invalid in C99 [-Wimplicit-function-declaration]
+        applyTestino(&bitmap);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:97:2: warning: implicit declaration of function 'applyXPro' is invalid in C99 [-Wimplicit-function-declaration]
+        applyXPro(&bitmap);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:101:2: warning: implicit declaration of function 'applyRetro' is invalid in C99 [-Wimplicit-function-declaration]
+        applyRetro(&bitmap);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:105:2: warning: implicit declaration of function 'applyBlackAndWhiteFilter' is invalid in C99 [-Wimplicit-function-declaration]
+        applyBlackAndWhiteFilter(&bitmap);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:109:2: warning: implicit declaration of function 'applySepia' is invalid in C99 [-Wimplicit-function-declaration]
+        applySepia(&bitmap);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:113:2: warning: implicit declaration of function 'applyCyano' is invalid in C99 [-Wimplicit-function-declaration]
+        applyCyano(&bitmap);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:117:2: warning: implicit declaration of function 'applyGeorgia' is invalid in C99 [-Wimplicit-function-declaration]
+        applyGeorgia(&bitmap);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:121:2: warning: implicit declaration of function 'applySahara' is invalid in C99 [-Wimplicit-function-declaration]
+        applySahara(&bitmap);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:125:2: warning: implicit declaration of function 'applyHDR' is invalid in C99 [-Wimplicit-function-declaration]
+        applyHDR(&bitmap);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:136:19: warning: implicit declaration of function 'decodeJpegData' is invalid in C99 [-Wimplicit-function-declaration]
+        int resultCode = decodeJpegData(jpegData, jpegSize, maxPixels, &bitmap);
+                         ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:138:3: warning: implicit declaration of function 'deleteBitmap' is invalid in C99 [-Wimplicit-function-declaration]
+                deleteBitmap(&bitmap);
+                ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:154:2: warning: implicit declaration of function 'resizeChannelBicubic' is invalid in C99 [-Wimplicit-function-declaration]
+        resizeChannelBicubic(bitmap.red, bitmap.width, bitmap.height, newRed, (int)newWidth, (int)newHeight);
+        ^
+D:/android/github/ImageEditor-Android/ImageEditor-Android/imageeditlibrary/jni/photo_processing.c:184:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+23 warnings generated.

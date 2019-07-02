@@ -1,0 +1,7 @@
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/color_panel_more"
+    android:src="@drawable/more_color"
+    android:layout_width="21dp"
+    android:layout_height="21dp"
+    android:layout_marginLeft="18dp"
+    android:scaleType="fitXY"/>
